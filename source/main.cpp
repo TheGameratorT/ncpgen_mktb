@@ -176,7 +176,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		std::cout << "Invalid argument count, must be exactly 3.\n\nSyntax:\nncpgen MODE XML_PATH\n"
+		std::cout << "Invalid argument count, must be exactly 2.\n\nSyntax:\nncpgen MODE XML_PATH\n"
 		"\nMODE = 0 for pre-built, 1 for post-build"
 		"\nXML_PATH = The path of the ROM XML project" << std::endl;
 		return 0;
